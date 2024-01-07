@@ -394,6 +394,8 @@ img {
   background: #2e2f42;
   padding-top: 100px;
   padding-bottom: 100px;
+  margin-left: auto;
+  margin-right: auto;
 }
 .footer-link {
   display: inline-block;
@@ -421,15 +423,23 @@ img {
   line-height: 1.5; /* 150% */
   letter-spacing: 0.02em;
 }
-/*-------------------- SOCIAL MEDIA ------------*/
-.social-media {
+.footer .footer-list {
+  display: flex;
 }
+/*-------------------- SOCIAL MEDIA ------------*/
 
-.social-media .social-media-list {
+.footer .footer-list {
+  display: flex;
+  gap: 24px;
+}
+.footer .footer-item {
+  width: calc((100% - 24px * 2) / 3);
+}
+.footer-list .social-media-list {
   display: flex;
   gap: 16px;
 }
-.social-media .social-media-title {
+.footer-list .social-media-title {
   color: #fff;
   /* Body Medium */
   font-family: Roboto;
@@ -440,7 +450,7 @@ img {
   letter-spacing: 0.02em;
   padding-bottom: 16px;
 }
-.social-media .social-media-link {
+.footer-list .social-media-link {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -450,7 +460,7 @@ img {
   border-radius: 50%;
   background-color: #4d5ae5;
 }
-.social-media .social-media-svg {
+.footer-list .social-media-svg {
   display: flex;
   padding: 0px;
   margin: 0;
@@ -458,7 +468,7 @@ img {
   align-items: center;
   fill: #fff;
 }
-.social-media .social-media-link:hover {
+.footer-list .social-media-link:hover {
   background-color: #120097;
 }
 /*------------------- END ------------------*/
