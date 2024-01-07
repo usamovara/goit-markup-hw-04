@@ -31,7 +31,7 @@ img {
 }
 /*----------------- SVG Icon Fill --------------- */
 .svg_icon {
-  fill: #fff;
+  fill: #f4f4fd;
 }
 /*----------------- SVG Icon Fill --------------- */
 .svg_icon_feature {
@@ -223,7 +223,7 @@ img {
 .main-title-button:focus {
   background-color: #404bbf;
 }
-/*------------------- MAIN - FEATURE ---------------*/
+/*------------------- SECTION TWO ---------------*/
 .feature-list {
   display: flex;
   gap: 24px;
@@ -247,7 +247,7 @@ img {
   line-height: 1.5;
   letter-spacing: 0.32px;
 }
-/*------------------- MAIN - PEOPLE ---------------*/
+/*------------------- SECTION THREE ---------------*/
 .people-section {
   background-color: #f4f4fd;
 }
@@ -333,13 +333,13 @@ img {
   margin: 0;
   justify-content: center;
   align-items: center;
-  fill: #fff;
+  fill: #f4f4fd;
 }
 
-.social-links .svg-link:hover {
-  background-color: #120097;
+.social-links .svg-link:hover .svg-link:focus {
+  background-color: #404bbf;
 }
-/*------------------- PORTFOLIO ---------------*/
+/*------------------- SECTION FOUR ---------------*/
 .portfolio-section .section {
 }
 .portfolio-title {
