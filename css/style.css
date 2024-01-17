@@ -416,12 +416,12 @@ img {
 
 .footer .footer-container {
   display: flex;
+  align-items: baseline;
 }
 
 .footer-logo {
   display: inline-block;
   gap: 24px;
-  align-items: baseline;
   margin-right: 120px;
 }
 
