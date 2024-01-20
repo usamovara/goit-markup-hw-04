@@ -376,7 +376,9 @@ img {
   height: 40px;
   border-radius: 50%;
   background-color: #4d5ae5;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+
 .social-links .icon {
   display: flex;
   padding: 0px;
@@ -391,6 +393,8 @@ img {
 .svg-link:hover,
 .svg-link:focus {
   background-color: #404bbf;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 /*------------------- SECTION FOUR ---------------*/
 .portfolio-section .section {
