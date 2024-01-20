@@ -385,7 +385,9 @@ img {
   align-items: center;
   fill: #f4f4fd;
 }
-
+.social-links-div{
+  
+}
 .svg-link:hover,
 .svg-link:focus {
   background-color: #404bbf;
